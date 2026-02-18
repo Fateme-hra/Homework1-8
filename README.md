@@ -26,23 +26,27 @@ This project was created as a university course assignment focused on database o
 - ework)
 - Database: SQL Server
 - Frontend: HTML/CSS
-- Template Engine: Jinja2
-- Database Operations: SQL queries
+- Database Operations: SQL server
 
 ## Project Structure
 
-Hospital/
-├── app.py                 # Main Flask application
-├── db.py                  # Database connection
-├── dbdoctor.py           # Doctor database operations
-├── dbpatient.py          # Patient database operations
-├── dbreception.py        # Reception database operations
-├── sqlhopital.sql        # Database schema/initialization
-└── templates/            # HTML templates
-    ├── index.html
-    ├── doctor.html
-    ├── patient.html
-    └── ...
+### File Descriptions:
+
+Backend Files:
+- app.py - Main Flask application with all routes and web server setup
+- db.py - Database connection configuration and initialization
+- dbdoctor.py - All database operations for doctors (Create, Read, Update, Delete)
+- dbpatient.py - All database operations for patients (Create, Read, Update, Delete)
+- dbreception.py - Reception-related database operations
+- sqlhopital.sql - SQL script to create database schema and tables
+
+Frontend Files:
+- templates/ - Folder containing all HTML templates
+  - index.html - Home page and dashboard
+  - doctor.html - Doctor management and display page
+  - patient.html - Patient management and display page
+  - reception.html - Reception management page
+  - etc
 
 ## How to Use
 
@@ -154,6 +158,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 - The code quality, security, and functionality are not suitable for real-world healthcare applications
 - No warranty is provided for this software
 - Use at your own risk
+
 
 
 
