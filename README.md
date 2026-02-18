@@ -120,9 +120,13 @@ Run the sqlhopital.sql script to create tables
 Verify you're connecting to the correct database
 
 ## Author
+
 **Created by:** Fateme-hra
+
 **Purpose:** University Database Course Assignment
+
 **Created:** 2024(Incomplate)
+
 **Contact:**ramezani5413fateme@gmail.com
 
 
@@ -137,7 +141,7 @@ This project is licensed under the MIT License.
 
 MIT License
 
-Copyright (c) 2024 Fateme-hraI
+Copyright (c) 2024 Fateme-hra
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software to use, modify, and distribute it freely, subject to the following conditions:
 
@@ -150,6 +154,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 - The code quality, security, and functionality are not suitable for real-world healthcare applications
 - No warranty is provided for this software
 - Use at your own risk
+
 
 
 
