@@ -119,6 +119,38 @@ Solution:
 Run the sqlhopital.sql script to create tables
 Verify you're connecting to the correct database
 
+## Author
+**Created by:** Fateme-hra
+**Purpose:** University Database Course Assignment
+**Created:** 2024(Incomplate)
+**Contact:**ramezani5413fateme@gmail.com
+
+
+### Acknowledgments
+- This project was developed as part of a university database course
+- Built using Flask framework and SQL Server
+- Educational purpose only
+
+
+## License
+This project is licensed under the MIT License.
+
+MIT License
+
+Copyright (c) 2024 Fateme-hraI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software to use, modify, and distribute it freely, subject to the following conditions:
+
+- The copyright notice and license must be included with the software
+- The software is provided "as is" without any warranty
+
+
+## Disclaimer & Terms of Use
+- This is an educational project and should not be used in production environments
+- The code quality, security, and functionality are not suitable for real-world healthcare applications
+- No warranty is provided for this software
+- Use at your own risk
+
 
 
 
