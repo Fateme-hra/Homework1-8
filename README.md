@@ -1,167 +1,31 @@
-# Hospital Management System
+# Homework Project Documentation
 
 ## Overview
-A simple educational hospital management system built with Flask and SQL Server. This project demonstrates basic CRUD operations (Create, Read, Update, Delete) for managing doctor and patient information through a web-based interface.
+This repository contains various homework assignments for the programming course. Each folder contains individual assignments that demonstrate different aspects of programming.
 
-Note: This is an incomplete, educational project created for a university database course and is not production-ready.
+## Getting Started
+To get started with this project, clone the repository using the following command:
 
-## Project Status
-⚠️ Status: Incomplete - Educational Project
+```bash
+git clone https://github.com/Fateme-hra/Homework1-8.git
+```
 
-This project was created as a university course assignment focused on database operations and SQL fundamentals. It requires further development and improvements to be suitable for production use.
+## Folder Structure
+- **Homework1/** - Description of the first homework assignment.
+- **Homework2/** - Description of the second homework assignment.
+- **Homework3/** - Description of the third homework assignment.
 
-## Features
-- View list of doctors and patients
-- Add new doctor information
-- Add new patient information
-- Edit existing doctor records
-- Edit existing patient records
-- Delete doctor records
-- Delete patient records
-- Simple web-based user interface
-- Direct database integration for data persistence
+## Requirements
+- Python 3.x or equivalent programming environment for running the code.
 
-## Technologies Used
-- Backend: Python (Flask web fram
-- ework)
-- Database: SQL Server
-- Frontend: HTML/CSS
-- Database Operations: SQL server
-
-## Project Structure
-
-### File Descriptions:
-
-Backend Files:
-- app.py - Main Flask application with all routes and web server setup
-- db.py - Database connection configuration and initialization
-- dbdoctor.py - All database operations for doctors (Create, Read, Update, Delete)
-- dbpatient.py - All database operations for patients (Create, Read, Update, Delete)
-- dbreception.py - Reception-related database operations
-- sqlhopital.sql - SQL script to create database schema and tables
-
-Frontend Files:
-- templates/ - Folder containing all HTML templates
-  - index.html - Home page and dashboard
-  - doctor.html - Doctor management and display page
-  - patient.html - Patient management and display page
-  - reception.html - Reception management page
-  - etc
-
-## How to Use
-
-### Viewing Records
-1. Navigate to the "Doctors" or "Patients" page
-2. View all existing records in the database
-
-### Adding New Records
-1. Click the "Add Doctor" or "Add Patient" button
-2. Fill in all required fields in the form
-3. Click "Submit" or "Save" to store the information in the database
-
-### Editing Records
-1. Find the record you want to modify
-2. Click the "Edit" button next to the record
-3. Update the information
-4. Click "Update" or "Save" to apply changes
-
-### Deleting Records
-1. Find the record you want to remove
-2. Click the "Delete" button
-3. Confirm the deletion when prompted
-
-## Limitations & Known Issues
-
-### Current Limitations:
-- Incomplete Features: The project has several planned features that are not yet implemented
-- No User Authentication: No login system or user accounts
-- Limited Input Validation: Form inputs may not be properly validated
-- No Error Handling: Some error scenarios are not handled gracefully
-- No Database Transactions: Operations are not atomic or transactional
-- Limited UI/UX: Simple interface, not optimized for user experience
-- Educational Code Quality: Code is not optimized for production use
-- No Search/Filter: Limited ability to search or filter records
-
-### Known Issues:
-- Database connection errors may crash the application
-- No backup functionality
-- No audit logs for changes
-- Sessions are not managed properly
-
-
-## Future Improvements & TODO
-
-- [ ] Implement user authentication and login system
-- [ ] Add comprehensive input validation and error handling
-- [ ] Implement database transactions for data consistency
-- [ ] Add search and filtering functionality for records
-- [ ] Create API endpoints for data access
-- [ ] Write unit and integration tests
-- [ ] Improve user interface and user experience
-- [ ] Add appointment scheduling functionality
-- [ ] Implement role-based access control (receptionist, doctor, admin)
-- [ ] Add data export functionality (PDF, Excel)
-- [ ] Implement database logging and audit trails
-- [ ] Add data validation rules and constraints
-- [ ] Optimize database queries for better performance
-- [ ] Create comprehensive documentation
-
-## Troubleshooting
-
-### Issue: "Connection to SQL Server failed"
-Solution: 
-- Verify SQL Server is running
-- Check connection string in db.py
-- Ensure database name and credentials are correct
-
-### Issue: "Module 'Flask' not found"
-Solution:
-pip install Flask
-
-### Issue: "Database tables not found"
-Solution:
-Run the sqlhopital.sql script to create tables
-Verify you're connecting to the correct database
-
-## Author
-
-**Created by:** Fateme-hra
-
-**Purpose:** University Database Course Assignment
-
-**Created:** 2024(Incomplate)
-
-**Contact:**ramezani5413fateme@gmail.com
-
-
-### Acknowledgments
-- This project was developed as part of a university database course
-- Built using Flask framework and SQL Server
-- Educational purpose only
-
+## Contributing
+If you would like to contribute to this project, please feel free to fork the repository and submit a pull request with your changes. I welcome contributions and suggestions for improvements.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-MIT License
+## Contact
+For any questions, please reach out to me at [email@example.com].
 
-Copyright (c) 2024 Fateme-hra
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software to use, modify, and distribute it freely, subject to the following conditions:
-
-- The copyright notice and license must be included with the software
-- The software is provided "as is" without any warranty
-
-
-## Disclaimer & Terms of Use
-- This is an educational project and should not be used in production environments
-- The code quality, security, and functionality are not suitable for real-world healthcare applications
-- No warranty is provided for this software
-- Use at your own risk
-
-
-
-
-
-
-
+## Acknowledgments
+Thanks to everyone who has contributed to this repository and provided feedback and support throughout the course.
